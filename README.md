@@ -24,22 +24,6 @@ A web-based healthcare chatbot built using PHP and MySQL that provides basic med
 
 ---
 
-## 📂 Project Structure
-medical-healthcare-chatbot/
-assets/ # CSS, JS, Images
-Healthcare/ # Core modules and chatbot logic
-css/ # Stylesheets
-js/ # JavaScript files
-img/ # Images and UI assets
-│
-index.php # Entry point
-login.php
-register.php
-chatbot.php
-...
-
----
-
 ## ⚙️ Setup Instructions
 
 1. Install **XAMPP / WAMP**
