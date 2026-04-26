@@ -1,10 +1,10 @@
-Medical Healthcare Chatbot
+MEDICAL HEALTHCARE CHATBOT
 
 A web-based healthcare chatbot built using PHP and MySQL that provides basic medical assistance, symptom guidance, and user interaction through an intuitive interface.
 
 ---
 
-Features
+FEATURES
 
 - User Authentication (Login/Register)
 - Interactive Chatbot for basic medical queries
@@ -15,7 +15,7 @@ Features
 
 ---
 
-Tech Stack
+TECH STACK
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** PHP  
@@ -24,7 +24,7 @@ Tech Stack
 
 ---
 
-Setup Instructions
+SETUP INSTRUCTIONS
 
 1. Install **XAMPP / WAMP**
 2. Clone this repository:https://github.com/DarshanMysore/medical-healthcare-chatbot.git
