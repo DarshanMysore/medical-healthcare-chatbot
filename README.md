@@ -35,7 +35,7 @@ SETUP INSTRUCTIONS
 
 ---
 
-Future Improvements
+FUTURE IMPROVEMENTS
 
 - AI-based chatbot integration  
 - Better UI/UX enhancements  
@@ -44,13 +44,13 @@ Future Improvements
 
 ---
 
-Author
+AUTHOR
 
 **Darshan P**  
 MCA Final Year Student | Aspiring Full Stack Developer  
 
 ---
 
-Show Your Support ⭐
+SHOW YOUR SUPPORT ⭐
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
