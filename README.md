@@ -33,6 +33,8 @@ SETUP INSTRUCTIONS
 5. Import the database file into **phpMyAdmin**
 6. Open in browser:http://localhost/medicalchatbotcopy
 
+Live: https://medicalchatbot.infinityfreeapp.com
+
 ---
 
 Future Improvements
