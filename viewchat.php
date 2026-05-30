@@ -98,8 +98,6 @@ if(mysqli_connect_errno())
 $result = mysqli_query($con,$query); // selecting data through mysql_query()
 while($data = mysqli_fetch_array($result))
 {
-
-
 ?>
       <div class="clearfix"></div>
         <div class="col-md-12">
@@ -109,18 +107,11 @@ while($data = mysqli_fetch_array($result))
               <table class="table">
                 <thead>
                   <tr>
-             
-                  
-                 
-					
-                  
 					<th>Doctor ID</th>
 					<th>User ID</th>
 					<th>Enter response</th>
                     <th>Confirmation</th>
-					
-                   
-                  </tr>
+				  </tr>
                 </thead>
                 <tbody>
                   <h3 style="color:red;">Message:-</h3>
@@ -128,24 +119,14 @@ while($data = mysqli_fetch_array($result))
 				
                   <br><label class="col-form-label col-form-label-lg" for="inputLarge"><?php echo $data['address']; ?> </label>
 				  <tr>
-					
-					
-
 					<td><form class="row"  action="responsechat.php" method="post"> 
-					
 					<input  class="form-control"type="text" name="p1" value="<?php echo $_SESSION['username']; ?>"  readonly /></td>
 					<td><input class="form-control" type="text" name="p2" value="<?php echo $data['uid']; ?>" readonly  /></td>
 						<td><textarea class="form-control" rows="2"  name="p3" 
               type="text" required></textarea></td>
 					<td>
-					
-					
 					<button class="btn btn-primary" type = "submit" >SEND RESPONSE</button></td>
-					
-					
-                 
                   </tr>
-               
                 </form>
                 </tbody>
               </table>
@@ -154,8 +135,6 @@ while($data = mysqli_fetch_array($result))
         </div>
       </div>
       <?php } ?>
-	  
-	    
     </main>
     <!-- Essential javascripts for application to work-->
     <script src="js/jquery-3.2.1.min.js"></script>
